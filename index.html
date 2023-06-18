@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/logo.png" type="image">
+    <title>Ronald Ian - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/84c3be7455.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#services">SERVICES</a></li>
+                    <li><a href="#portfolio">PORTFOLIO</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                    <i class="fa-sharp fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>ASPIRING DATA ANALYST/SCIENTIST</p> 
+                <h1>Hi, I am <span>Ronald Ian</span> from Philippines</h1>       
+        </div>
+    </div> 
+
+    <!-- code about me-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/ai.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p align="justify">I am currently an undergraduate student pursuing a Bachelor of Science degree in computer engineering. As I work towards completing my studies, my passion for coding and designing continues to grow. The world of technology has always fascinated me, and I am motivated to explore the vast possibilities that computer engineering offers.<br></p>
+                        <br>
+                    <p align="justify">One of the aspects that excites me the most about computer engineering is its potential to make a positive impact on society. I firmly believe that technology has the power to transform lives and improve the world we live in. I am eager to apply my acquired knowledge and skills to real-world projects, collaborating with like-minded individuals to develop innovative solutions that can address pressing challenges.</p>
+                        <br>
+                    <p align="justify">Overall, my goal is to contribute to the field of computer engineering by leveraging my passion, knowledge, and skills. I am excited to embark on this journey and make a meaningful difference through technology.</p>
+                    
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>•</span> Start-up Data Analyst</li>
+                            <li><span>•</span> Start-up Web Developer</li>
+                            <li><span>•</span> PC Building</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>•</span> Built my own computer</li>
+                        </ul>
+                    </div> 
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>•</span> 2013 - 2019 Graduated High School from TNHS</li>
+                            <li><span>•</span> 2019 - 2024 Graduated from UST-L as BsCpE</li>
+                            
+                        </ul>
+                    </div>  
+            </div>
+        </div>
+    </div>
+<!--services-->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-magnifying-glass-chart"></i>  
+                <h2>Data Analysis</h2>
+                <p align="justify">As a aspiring data analyst and data scientist, I translate data into clean, valuable and comprehensible insights. My current goal is to become proficient at doing my job and create incredible results.</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-chart-simple"></i>  
+                <h2>Dashboards</h2>
+                <p align="justify">I translate the complex data I gathered into into actionable insights, utilizing my expertise to design and develop interactive dashboards that empower stakeholders to make informed decisions efficiently. My data-driven dashboards combine visually appealing aesthetics with intuitive navigation, providing a comprehensive overview of key metrics.</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>  
+                <h2>Web Developer</h2>
+                <p align="justify">As a front-end web developer, I specialize in crafting visually stunning and highly functional websites that seamlessly blend user experience with cutting-edge design trends. I am passionate about utilizing the latest web technologies and frameworks to create responsive and intuitive interfaces.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- portfolio-->   
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Portfolio</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/The-trouble-with-graphs.jpg" width="300" height="300">
+                <div class="layer">
+                    <h3>Project conducted in X Company</h3>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/The-trouble-with-graphs.jpg" width="300" height="300">
+                <div class="layer">
+                    <h3>Project conducted in Y Company</h3>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/The-trouble-with-graphs.jpg" width="300" height="300">
+                <div class="layer">
+                    <h3>Project conducted in Z Company</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> 
+
+
+<!--contact-->
+
+<div class="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>ronaldianbon@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+63 999 988 4280</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/perkypop"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/ronaldian_"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/perkypopss/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://github.com/ronald-ian"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/ronald-ian-bon-70617020b/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <!--download cv part-->
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea   name="Message" rows="6" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links"); 
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname) {
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    } 
+</script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu() {
+        sidemenu.style.right = "0";
+    }
+    function closemenu() {
+        sidemenu.style.right = "-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxpjU5_D3uZUyE2prE0dg_WsZMGgEAwBFGdit2547aYnnv_hCue6YHhc3z17egyT8v6/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response =>{
+            msg.innerHTML = "Message Sent Successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
